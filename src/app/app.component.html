@@ -1,0 +1,38 @@
+<div class="container">
+  <nz-layout>
+    <nz-sider nzCollapsible nzWidth="200px">
+      <ul nz-menu nzTheme="dark" nzMode="inline">
+        <li nz-menu-item *ngFor="let productCategory of productCategories"
+          (click)="fetchProductsList(productCategory.categoryId)">{{productCategory.name}}</li>
+      </ul>
+    </nz-sider>
+    <nz-layout>
+      <nz-header>
+
+      </nz-header>
+      <nz-content>
+        <nz-input-group>
+          <input type="text" [(ngModel)]='searchText' placeholder="Enter Product name" class="input-search" />
+        </nz-input-group>
+        <nz-table #productTable [nzData]='products' class="table" nzWidth='1000px'>
+          <thead>
+            <tr>
+              <th>Product Name</th>
+              <th>Product Category</th>
+              <th>Brand Name</th>
+              <th>Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let product of productTable?.data | filter:searchText">
+              <td>{{product.name}}</td>
+              <td>{{productCategories[product.categoryId-1].name}}</td>
+              <td>{{product.brand_name}}</td>
+              <td>${{product.price}}</td>
+            </tr>
+          </tbody>
+        </nz-table>
+      </nz-content>
+    </nz-layout>
+  </nz-layout>
+</div>

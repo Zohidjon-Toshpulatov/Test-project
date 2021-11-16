@@ -1,0 +1,190 @@
+{
+    "productCategory": [
+        {
+            "categoryId": 1,
+            "name": "cars"
+        },
+        {
+            "categoryId": 2,
+            "name": "phones"
+        },
+        {
+            "categoryId": 3,
+            "name": "bicycles"
+        },
+        {
+            "categoryId": 4,
+            "name": "computers"
+        }
+    ],
+    "productsList": [
+        {
+            "id": 1,
+            "categorId": 1,
+            "name": "nexia",
+            "brand_name": "chevrolet",
+            "price": 10000
+        },
+        {
+            "id": 2,
+            "categoryId": 1,
+            "name": "cobalt",
+            "brand_name": "chevrolet",
+            "price": 11000
+        },
+        {
+            "id": 3,
+            "categoryId": 1,
+            "name": "k5",
+            "brand_name": "kia",
+            "price": 32000
+        },
+        {
+            "id": 4,
+            "categoryId": 1,
+            "name": "sonata",
+            "brand_name": "hyundai",
+            "price": 33000
+        },
+        {
+            "id": 5,
+            "categoryId": 1,
+            "name": "gls 450",
+            "brand_name": "mercedes",
+            "price": 186000
+        },
+        {
+            "id": 6,
+            "categoryId": 1,
+            "name": "i8",
+            "brand_name": "bmw",
+            "price": 230000
+        },
+        {
+            "id": 7,
+            "categoryId": 2,
+            "name": "galaxy s21 ultra",
+            "brand_name": "samsung",
+            "price": 1495
+        },
+        {
+            "id": 8,
+            "categoryId": 2,
+            "name": "13 pro max",
+            "brand_name": "apple",
+            "price": 1699
+        },
+        {
+            "id": 9,
+            "categoryId": 2,
+            "name": "s 9",
+            "brand_name": "nokia",
+            "price": 535
+        },
+        {
+            "id": 10,
+            "categoryId": 2,
+            "name": "note 11 pro",
+            "brand_name": "xiaomi ",
+            "price": 590
+        },
+        {
+            "id": 11,
+            "categoryId": 2,
+            "name": "Note 21",
+            "brand_name": "samsung",
+            "price": 1200
+        },
+        {
+            "id": 12,
+            "categoryId": 2,
+            "name": "iphone 12",
+            "brand_name": "apple",
+            "price": 890
+        },
+        {
+            "id": 13,
+            "categoryId": 3,
+            "name": "giant",
+            "brand_name": "giant",
+            "price": 138
+        },
+        {
+            "id": 14,
+            "categoryId": 3,
+            "name": "Trek Bike",
+            "brand_name": "Trek Bikes",
+            "price": 121
+        },
+        {
+            "id": 15,
+            "categoryId": 3,
+            "name": "Specialized Bike",
+            "brand_name": "Specialized Bikes",
+            "price": 132
+        },
+        {
+            "id": 16,
+            "categoryId": 3,
+            "name": "Cannondale Bike",
+            "brand_name": "Cannondale Bikes",
+            "price": 99.55
+        },
+        {
+            "id": 17,
+            "categoryId": 3,
+            "name": "Diamondback Bike",
+            "brand_name": "Diamondback",
+            "price": 109.99
+        },
+        {
+            "id": 18,
+            "categoryId": 3,
+            "name": "Santa Cruz Bike",
+            "brand_name": "Santa Cruz Bikes",
+            "price": 210
+        },
+        {
+            "id": 19,
+            "categoryId": 4,
+            "name": "VivoBook M515",
+            "brand_name": "Asus",
+            "price": 425.31
+        },
+        {
+            "id": 20,
+            "categoryId": 4,
+            "name": "Hp X360 310",
+            "brand_name": "HP",
+            "price": 174.96
+        },
+        {
+            "id": 21,
+            "categoryId": 4,
+            "name": "Thinkpad Yoga 12",
+            "brand_name": "Lenevo",
+            "price": 294.98
+        },
+        {
+            "id": 22,
+            "categoryId": 4,
+            "name": "Alienware x15 R115.6",
+            "brand_name": "Dell",
+            "price": 3100
+        },
+        {
+            "id": 23,
+            "categoryId": 4,
+            "name": "Macbook M1 15",
+            "brand_name": "Apple",
+            "price": 3199.99
+        },
+        {
+            "id": 24,
+            "categoryId": 4,
+            "name": "Swift 7 SF714-51T-M9H0",
+            "brand_name": "Acer",
+            "price": 564.99
+        }
+    ]
+}
